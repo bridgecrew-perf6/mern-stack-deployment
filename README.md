@@ -1,1 +1,3 @@
-# Project3---MERN-Stack
+# DevOps Project3
+
+MERN Stack Implementation
