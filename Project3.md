@@ -312,3 +312,30 @@ to access the application via the internet i opened tcp port 3000 on ec2
 
 **creating react components**
 
+ move to src directory
+
+` $ cd src`
+
+create components directory
+
+` $ mkdir components`
+
+` $ cd components`
+
+create Input.js, ListTodo.js and Todo.js in components
+
+` $ touch Input.js ListTodo.js Todo.js`
+
+` $ vi Input.js`
+
+move back to client directory
+
+` cd ..`
+
+install axios
+
+` $ npm install axios`
+
+![](images/src2axios32.png)
+
+![](images/indexjs33.png)
