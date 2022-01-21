@@ -35,7 +35,7 @@ verifying npm installation
 
 ![](images/installnverify4.png)
 
-application code setup
+**application code setup**
 
 creating a new directory for the todo project
 
@@ -89,3 +89,36 @@ testing to see if server works - it should work on port 5000
 
 ![](images/nodeconf10.png)
 
+opening TCP port 5000 in EC2 security group
+
+![](images/5000tcp11.png)
+
+running public ip + port 5000
+
+![](images/welcome2express12.png)
+
+**routes**
+
+creating routes directory
+
+` $ mkdir routes`
+
+` $ cd routes`
+
+create api.js file
+
+` $ touch api.js`
+
+open api.js file
+
+` $ vi api.js`
+
+![](images/routes2api13.png)
+
+![](images/apibarebones14.png)
+
+**models**
+
+*installing mongoose - a nodejs package - that makes working with mongodb easier*
+
+change directory back to todo folder 
