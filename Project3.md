@@ -222,7 +222,40 @@ start server using:
 
 ![](images/env2fixserver21.png)
 
-### Database connected successfully means the backend is configured
+##### Database connected successfully means the backend is configured
 
+**testing backend code without frontend using RESTful API**
 
+i used postman to test my api
 
+**POST request**
+
+Header: Content-Type
+
+Value: Applicatiion/json
+
+![](images/POST22.png)
+
+**GET request**
+
+Header: Content-Type
+
+Value: Application/json
+
+![](images/GET23.png)
+
+**DELETE request**
+
+Header: Content-Type
+
+Value: Application/json
+
+![](images/DEL24.png)
+
+**POST request again**
+
+Header: Content-Type
+
+Value: Application/json
+
+![](images/POSTAGAIN25.png)
