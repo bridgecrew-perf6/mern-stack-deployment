@@ -57,4 +57,35 @@ initializing project so package.json will be created
 
 ![](images/npminit6.png)
 
+confirmation
+
+![](images/confirmation7.png)
+
+installing expressjs
+
+` $ npm install express`
+
+creating index.js file
+
+` $ touch index.js`
+
+installing dotenv module
+
+` $ npm install dotenv`
+
+opening index.js file 
+
+` $ vim index.js`
+
+![](images/express2vim8.png)
+
+inside index.js
+
+![](images/barebones9.png)
+
+testing to see if server works - it should work on port 5000
+
+` $ node index.js`
+
+![](images/nodeconf10.png)
 
