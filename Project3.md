@@ -339,3 +339,55 @@ install axios
 ![](images/src2axios32.png)
 
 ![](images/indexjs33.png)
+
+move to components directory
+
+` $ cd src/components`
+
+open listtodo.js
+
+` $ vi ListTodo.js`
+
+open todo.js
+
+` $ Todo.js`
+
+adjusting react code...deleting logo & adjusting app.js
+
+move back to src directory
+
+` $ cd ..`
+
+open app.js
+
+` $ vi app.js`
+
+open app.css
+
+` $ vi app.css`
+
+open index.css
+
+` $ vim index.css`
+
+move back to todo directory
+
+` $ cd ../..`
+
+in the todo directory run:
+
+` $ npm run dev`
+
+![](images/src2rundev34.png)
+
+![](images/listtodo35.png)
+
+![](images/vitodo36.png)
+
+![](images/appjs37.png)
+
+![](images/appcss38.png)
+
+![](images/indexcss39.png)
+
+![](images/final40.png)
