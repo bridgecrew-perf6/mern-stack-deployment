@@ -259,3 +259,56 @@ Header: Content-Type
 Value: Application/json
 
 ![](images/POSTAGAIN25.png)
+
+**frontend creation**
+
+using *create-react-app* command to scaffold app
+
+` $ npx create-react-app client`
+
+![](images/reactclient26.png)
+
+**running a react app**
+
+installing concurrently
+
+` $ npm install concurrently --save-dev`
+
+installing nodemon
+
+` $ npm install nodemon --save-dev`
+
+open package.json file and change a part of the code
+
+![](images/conc2vi27.png)
+
+![](images/changingjsoncode28.png)
+
+**configuring proxy in package.json**
+
+changing directory to client
+
+` $ cd client`
+
+opening package.json file
+
+` $ vi package.json`
+
+add the key value pair to the file: "proxy": "http://localhost:5000"
+
+![](images/localhost29.png)
+
+go back todo directory and run:
+
+` $ npm run dev`
+
+the app should run on localhost:3000
+
+![](images/rundev30.png)
+
+to access the application via the internet i opened tcp port 3000 on ec2 
+
+![](images/3000port31.png)
+
+**creating react components**
+
