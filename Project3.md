@@ -122,3 +122,26 @@ open api.js file
 *installing mongoose - a nodejs package - that makes working with mongodb easier*
 
 change directory back to todo folder 
+
+` $ npm install mongoose`
+
+create directory - models, cd into models and create todo.js file
+
+` $ mkdir models && cd models && touch todo.js`
+
+open todo.js
+
+` $ vim todo.js`
+
+![](images/mongoose2vim15.png)
+
+![](images/todojsvim16.png)
+
+updating the code in the api.js file - within routes directory
+
+`$ cd routes`
+
+` $ vim api.js`
+
+![](images/chngroutes17.png)
+
