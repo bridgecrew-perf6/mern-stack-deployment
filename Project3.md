@@ -222,3 +222,7 @@ start server using:
 
 ![](images/env2fixserver21.png)
 
+### Database connected successfully means the backend is configured
+
+
+
